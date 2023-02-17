@@ -1,0 +1,5 @@
+<launch>
+    <node name="serial_test"  pkg="frost_odrive_serialtest" type="serial_test.py" 
+         output="screen">
+    </node>
+</launch>

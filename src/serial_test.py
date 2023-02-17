@@ -15,4 +15,5 @@ if __name__ == "__main__":
     print("Testing the serial connection for odrive")
     print("Node is running")
     odrive.connectOdrive()
+    odrive.runCalibration()
     rospy.spin()
